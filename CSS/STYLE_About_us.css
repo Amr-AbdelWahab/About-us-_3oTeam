@@ -1,0 +1,221 @@
+/*  =================
+    tale of contants
+    =================
+    1. global styles
+    2. header
+    3. middle
+    4. footer
+*/
+
+/*  =================
+    1. global styles
+    =================*/
+
+* {
+  margin: 0px;
+}
+html {
+  height: 100%;
+  position: relative;
+}
+
+/*============================================*/
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/*============================================*/
+
+body,
+header,
+footer,
+.middle {
+  /* border: 1px solid red; */
+  height: 100%;
+}
+
+html {
+  background-image: url(../PIC/wave_cover2.png);
+  background-size: cover;
+  background-position-y: bottom;
+  background-color: #d0ebfa;
+}
+
+/*  =================
+    2. header separate style file
+    =================*/
+
+/*  =================
+    3. middle
+    =================*/
+
+.middle {
+  /* height: 510px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 800px;
+}
+
+section {
+  margin: 15px;
+  font-family: sans-serif;
+  font-size: 13px;
+  /* padding: 20px; */
+}
+
+.midlog{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  /* border: 1px solid #000; */
+}
+
+.team {
+  /* border: 1px solid red; */
+  color: tomato;
+  text-align: center;
+}
+
+.mancont {
+  /* border: 1px solid blueviolet; */
+  border-radius: 50px;
+  width: 800px;
+  display: flex;
+  align-items: center;
+  transition: 2.5s ;
+}
+.man {
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.no {
+  /* border: 1px solid red; */
+  position: absolute;
+  display: block;
+  transition: all .3s;
+}
+
+.imag {
+  /* border: 1px solid red; */
+  display: block;
+  transition: .3s all ease-in-out;
+}
+
+.name {
+  /* position: absolute; */
+  width: 350px;
+  text-align: center;
+  opacity: 0;
+  transition: 0.5s;
+  font-size: 15px;
+  line-height: 1.6em;
+}
+
+.disc {
+  /* border: 1px solid black; */
+  /* height: 100px; */
+  padding: 10px;
+  width: 350px;
+  text-align: center;
+  align-items: center;
+  opacity: 0;
+  transition: .3s;
+}
+
+.disc_1 {
+  font-size: 1.5em;
+}
+
+.mancont:hover {
+  background-color: rgb(231, 144, 82);
+}
+
+.mancont:hover .no {
+  opacity: 0;
+  transform:rotate(-360deg);
+}
+.mancont:hover .imag {
+  transform:rotate(-360deg);
+}
+
+.mancont:hover .disc {
+  opacity: 1;
+  width: 650px;
+}
+
+.mancont:hover .name {
+  opacity: 1;
+  font-size: 1.5em;
+}
+
+.fab {
+  color: rgb(68, 68, 68);
+  margin: 0 5px;
+  font-size: 25px;
+  transition: 0.5s all ease-in-out;
+}
+
+.fab:hover {
+  color: #050801;
+  background: #03e9f4;
+  box-shadow: 0 0 5px #03e9f4,
+              0 0 25px #03e9f4,
+              0 0 50px #03e9f4,
+              0 0 200px #03e9f4;
+  transform:rotate(-360deg);
+
+}
+
+.name a {
+  text-decoration: none;
+}
+
+
+.man2{
+  width: 350px;
+  height: 150px;
+  background-color: rgb(209, 18, 18);
+  margin: auto;
+  /* display: inline-block; */
+  /* border: 1px solid #000; */
+
+}
+.man2 a{
+  position: relative;
+  display: inline-block;
+  padding: 25px 30px;
+  margin: 40px 0;
+  color: #010202;
+
+  font-size: 24px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: 0.5s;
+  letter-spacing: 4px;
+
+  
+}
+
+.man2 a span{
+  position: absolute;
+  display: block;
+}
+
+.man2 a span:nth-child(1){
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(9deg, transparent,#03e9f4);
+}

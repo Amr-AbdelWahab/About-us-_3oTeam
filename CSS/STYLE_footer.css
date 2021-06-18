@@ -1,0 +1,67 @@
+/*  =================
+    3. middle
+    =================*/
+
+
+
+
+/*  =================
+    4. footer
+    =================*/
+
+html{
+  position: relative;
+
+}
+
+footer {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  color: #fff;
+  border-top-left-radius: 1.5rem;
+  border-top-right-radius: 1.5rem;
+  background-color: #1C5253;
+  justify-content: space-around;
+  margin-top: 10px;
+  position: fixed;
+  bottom: 0px;
+
+  
+}
+
+#lgFot{
+  /* border: 1px solid; */
+
+  width: 55px;
+  position: relative;
+  bottom: -5px;
+  transition: all 1s;
+}
+#lgFot:hover{
+  transform: scale(1.1);
+
+}
+
+.pFot{
+  border-bottom: 1px solid;
+
+}
+
+
+footer p{
+  /* border: 1px solid; */
+
+  text-align: center;
+  font-family: sans-serif;
+  padding: .2em;
+
+}
+
+.firstleter{
+  color: black;
+  font: size 15px; ;
+}
+  
+
+
