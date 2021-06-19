@@ -62,6 +62,7 @@ html {
   justify-content: center;
   align-items: center;
   min-width: 800px;
+  height: calc(100vh - 190px);
 }
 
 section {
@@ -219,3 +220,5 @@ section {
   height: 2px;
   background: linear-gradient(9deg, transparent,#03e9f4);
 }
+
+

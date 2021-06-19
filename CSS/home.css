@@ -1,0 +1,79 @@
+:root {
+    --color1: rgb(22, 136, 139);;
+    --color2: #000000;
+  }
+
+
+.cont{
+    /* border: 10px solid #000; */
+    /* background-color: yellow; */
+    padding: auto;
+    height: calc(100vh - 190px);
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 1.5em;
+
+
+
+}
+
+h1{
+    color: red;
+    letter-spacing: 0.2em;
+
+}
+
+.cont .proposed{
+    /* text-decoration: underline; */
+    color: darkgrey;
+}
+.cont span{
+    color: black;
+}
+
+.click{
+    color: var(--color1);
+    text-decoration: underline;
+}
+
+.fa-hand-point-down{
+    font-size: 2em;
+    color: var(--color1);
+}
+
+
+.midlog{
+    border: 1px dashed rgba(0, 0, 0, 0);
+    padding: 10px;
+    border-radius: 30px ;
+    transition: 1s;
+}
+
+.midlog:hover{
+    border: 1px dashed #000;
+    box-shadow: 0 0 5px #03e9f4,
+    0 0 25px #03e9f4,
+    0 0 50px #03e9f4,
+    0 0 200px #03e9f4;
+}
+
+.to{
+    color: rgb(90, 90, 90);
+}
+.ab{
+    font-weight: bold;
+}
+
+.fasa{
+    color: var(--color2)
+}
+
+جهاز حماية البيئه
+16528
+طارق
+
+4006553
